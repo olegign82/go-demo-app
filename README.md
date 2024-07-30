@@ -4,7 +4,7 @@ NAME:PROMPT:DESCRIPTION:EXAMPLE, де EXAMPLE — це посилання на �
 
 | NAME                          | PROMPT                                                                        | DESCRIPTION                                                       | EXAMPLE                                                                  |
 |-------------------------------|-------------------------------------------------------------------------------|-------------------------------------------------------------------|--------------------------------------------------------------------------|
-|  APP                          |Compose a Kubernetes Pod manifest for the application name=app, with a single container name=app running the gcr.io/k8s-k3s/demo:v1.0.0 image, listening on port 8000, and having labels app=demo and run=demo and containerPort name=http| Prompt string to generate app.yaml file| [Link to app.yaml file](../yaml/app.yaml)
+|  APP                          |Compose a Kubernetes Pod manifest for the application name=app, with a single container name=app running the gcr.io/k8s-k3s/demo:v1.0.0 image, listening on port 8000, and having labels app=demo and run=demo and containerPort name=http| Prompt string to generate app.yaml file| [Link to app.yaml file](/yaml/app.yaml)
 #
 ## Runc and containerazed app https://developers.redhat.com/blog/2018/02/22/container-terminology-practical-introduction#containerized__components
 	mkdir demo
